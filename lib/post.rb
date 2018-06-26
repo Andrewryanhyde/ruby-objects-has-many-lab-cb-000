@@ -9,6 +9,6 @@ class Post
     @@all << title
   end
 
-  
+
 
 end
