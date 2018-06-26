@@ -7,6 +7,8 @@ class Author
     @posts = []
   end
 
+  @@counter = 0
+
   def posts
     @posts
   end
@@ -21,5 +23,10 @@ class Author
     post.author = self
     @posts << post
   end
+
+  def self.post_count
+    @@counter
+  end
+    
 
 end
