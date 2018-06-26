@@ -21,5 +21,6 @@ class Artist
     song = Song.new(song)
     song.artist = self
     
+
   end
 end
