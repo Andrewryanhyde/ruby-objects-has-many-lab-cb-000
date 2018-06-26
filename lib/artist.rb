@@ -7,6 +7,8 @@ class Artist
     @songs = []
   end
 
+  @@counter = 0
+
 
   def songs
     @songs
